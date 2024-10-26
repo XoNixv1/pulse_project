@@ -1,0 +1,163 @@
+@media(max-width: 1024px) {
+    .catalog{
+       &__content{
+        justify-content: center;
+    }     
+    }
+    .reviews{
+        &__png{
+            img{margin-bottom: 130px;}
+        }
+    }
+
+}
+
+@media(max-width: 769px) {
+    .promo{
+        &__header{font-size: 35px;}
+        &__wrapper{
+            align-items:center;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+    }
+    .header{
+        &__logo {
+            img{width: 100%;}
+        }    
+        &__phone{
+            font-size: 16px;
+        }
+    }
+   
+
+    .advantages{
+        &__wrapper{
+            flex-direction: column;
+            align-items:center;
+        }
+        &__type{
+            max-width: 320px;
+        }
+    }
+
+    .title{
+        &_left{
+            text-align: center;
+            font-size: 27px;
+        }
+    }
+
+    .consultation{
+        &__descr{
+            text-align: center;
+        }
+    }
+    .feed-form{
+        margin: 36px auto;
+    }
+
+    .reviews{
+        &__png{
+            img{margin-bottom: 170px;}
+        }
+    }
+}
+
+@media(max-width: 567px) {
+    .modal{
+        width: 290px;
+        &__close{
+            right: 5px;
+            top: 5px;
+        }
+    }
+    .feed-form{
+        width: 225px;
+    }
+    .catalog{
+        &__tab{
+            div{font-size: 9px;}
+        }
+    }
+    .title{
+        font-size: 26px;
+    }
+
+    .button{
+        width: 137px;
+            &_main{width: 303px;}
+            &_submit{
+                width: 225px;
+                font-size:14px;
+            }
+    }
+
+    .header{
+        font-size:37px;
+        &__official{
+            display: none;
+        }
+        &__phone{
+            font-size: 14px;
+        }
+    }
+
+    .promo{
+        &__header{font-size: 30px;}
+        &__icons{
+            width: 270px;
+            :nth-child(2){
+                display: none;
+            }
+        }    
+        &__icon{
+            &_nv{
+                margin-top: 30px;
+                display: block;
+            }
+        }
+    }
+    .title{
+        &_left{
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+
+    .consultation{
+        &__descr{
+            text-align: center;
+            font-size: 17px;
+        }
+    }
+    
+    .reviews{
+        &__item{
+            img{
+                margin-top: 5px;
+                width: 49px;
+                height: 49px;
+            }
+        }
+        &-descr{
+            margin-left: 15px;
+            &__name{
+                font-size: 16px;
+                margin-top: 10px;
+            }
+            &__txt{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .footer{
+        &__info{
+            width: 100vw;
+            padding: 20px 30px 20px 30px;
+        }
+    }
+    
+}
